@@ -8,28 +8,28 @@ function greet(name) {
 }
 console.log(greet("Anita"))
 
-const numbers = [1, 2, 3, 4, 5];
+// const numbers = [1, 2, 3, 4, 5];
 
-for (let i = 0; i < numbers.length; i++) {
-  console.log(numbers[i]);
-}
+// for (let i = 0; i < numbers.length; i++) {
+//   console.log(numbers[i]);
+// }
 
-const fs = require('node:fs')
-try {
-    const data = fs.readFileSync('example.txt', 'utf8' )
-    console.log('File content:', data)
+// const fs = require('node:fs')
+// try {
+//     const data = fs.readFileSync('example.txt', 'utf8' )
+//     console.log('File content:', data)
 
-} catch (error) {
-    console.error(error)
-}
+// } catch (error) {
+//     console.error(error)
+// }
 
-console.log("Read file synchronously")
+// console.log("Read file synchronously")
 
-const readline = require('node:readline').createInterface({
-    input: process.stdin,
-    output: process.stdout,
-  });
-  readline.question(`What's your name?`, name => {
-    console.log(`Hi ${name}!`);
-    readline.close();
-  });
+// const readline = require('node:readline').createInterface({
+//     input: process.stdin,
+//     output: process.stdout,
+//   });
+//   readline.question(`What's your name?`, name => {
+//     console.log(`Hi ${name}!`);
+//     readline.close();
+//   });
